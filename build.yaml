@@ -96,7 +96,14 @@ include:
     artifact-name: lily58_right
     snippet: studio-rpc-usb-uart
     cmake-args: -DCONFIG_ZMK_STUDIO=y
-
+    
+  # Re-gret + XIA RP2040
+  - board: xiao_rp2040//zmk
+    shield: re-gret
+    artifact-name: re-gret
+    snippet: studio-rpc-usb-uart
+    cmake-args: -DCONFIG_ZMK_STUDIO=y
+    
   ###
   # Standalone Keyboards (onboard MCU)
   ##

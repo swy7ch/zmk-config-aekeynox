@@ -6,6 +6,8 @@ manifest:
       url-base: https://github.com/cfergeau
     - name: NuclearSquid
       url-base: https://github.com/Nuclear-Squid
+    - name: rschenk
+      url-base: https://github.com/rschenk
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -19,5 +21,8 @@ manifest:
     - name: zmk-config-totem
       remote: cfergeau
       revision: zmk-module
+    - name: zmk-keyboard-re-gret
+      remote: rschenk
+      revision: main # set to same version as zmk above
   self:
     path: config
